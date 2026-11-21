@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 230" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0B0F17" />
+      <stop offset="50%" stop-color="#0F172A" />
+      <stop offset="100%" stop-color="#0B0F17" />
+    </linearGradient>
+    <linearGradient id="borderGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38BDF8" stop-opacity="0.8" />
+      <stop offset="50%" stop-color="#6366F1" stop-opacity="0.4" />
+      <stop offset="100%" stop-color="#10B981" stop-opacity="0.8" />
+    </linearGradient>
+    <linearGradient id="textGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#F8FAFC" />
+      <stop offset="100%" stop-color="#94A3B8" />
+    </linearGradient>
+    <linearGradient id="badgeGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0284C7" stop-opacity="0.2" />
+      <stop offset="100%" stop-color="#0EA5E9" stop-opacity="0.05" />
+    </linearGradient>
+    <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse">
+      <path d="M 24 0 L 0 0 0 24" fill="none" stroke="#334155" stroke-width="0.5" stroke-opacity="0.25" />
+    </pattern>
+  </defs>
+
+  <!-- Container Box with Rounded Corners -->
+  <rect x="1" y="1" width="898" height="228" rx="14" fill="url(#bgGrad)" stroke="url(#borderGrad)" stroke-width="1.5" />
+  <rect x="2" y="2" width="896" height="226" rx="13" fill="url(#grid)" />
+
+  <!-- Window Header Bar -->
+  <line x1="1" y1="38" x2="899" y2="38" stroke="#1E293B" stroke-width="1" />
+  <circle cx="24" cy="19" r="4.5" fill="#EF4444" />
+  <circle cx="39" cy="19" r="4.5" fill="#F59E0B" />
+  <circle cx="54" cy="19" r="4.5" fill="#10B981" />
+  <text x="74" y="23" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="600" fill="#64748B" letter-spacing="1">SHAHZAD AHMED · @ENGRAHMED369 · 369 AI VENTURES LLC</text>
+
+  <!-- Availability Status Badge (Top Right) -->
+  <g transform="translate(580, 11)">
+    <rect width="300" height="18" rx="9" fill="#064E3B" fill-opacity="0.5" stroke="#059669" stroke-width="0.75" />
+    <circle cx="10" cy="9" r="3.5" fill="#10B981">
+      <animate attributeName="opacity" values="1;0.4;1" dur="2s" repeatCount="indefinite" />
+    </circle>
+    <text x="20" y="12.5" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="9.5" font-weight="700" fill="#34D399" letter-spacing="0.5">OPEN FOR B2B / C2C CONTRACTING (US/EU)</text>
+  </g>
+
+  <!-- Main Identity Content -->
+  <!-- Name -->
+  <text x="32" y="86" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'SF Pro Display', sans-serif" font-size="30" font-weight="800" fill="#FFFFFF" letter-spacing="-0.5">Shahzad Ahmed</text>
+  
+  <!-- Role / Headline -->
+  <text x="32" y="116" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="14.5" font-weight="600" fill="#38BDF8" letter-spacing="0.2">Senior Full-Stack &amp; Cloud/DevOps Engineer · Headless Commerce &amp; Distributed Systems</text>
+
+  <!-- Entity / Contracting Sub-bar -->
+  <text x="32" y="142" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="500" fill="#94A3B8">Founder &amp; Principal Engineer @ <tspan fill="#F8FAFC" font-weight="700">369 AI Ventures LLC</tspan> (Wyoming, US · EIN) · Direct USD Invoicing · No EOR Overhead</text>
+
+  <!-- Tag Pills -->
+  <g transform="translate(32, 166)">
+    <!-- Pill 1: Medusa.js -->
+    <rect x="0" y="0" width="104" height="26" rx="6" fill="#1E293B" stroke="#334155" stroke-width="1" />
+    <text x="52" y="17" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="10.5" font-weight="700" fill="#E2E8F0" text-anchor="middle">Medusa.js v2</text>
+
+    <!-- Pill 2: Next.js / React -->
+    <rect x="112" y="0" width="104" height="26" rx="6" fill="#1E293B" stroke="#334155" stroke-width="1" />
+    <text x="164" y="17" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="10.5" font-weight="700" fill="#E2E8F0" text-anchor="middle">Next.js / TS</text>
+
+    <!-- Pill 3: Node / NestJS -->
+    <rect x="224" y="0" width="112" height="26" rx="6" fill="#1E293B" stroke="#334155" stroke-width="1" />
+    <text x="280" y="17" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="10.5" font-weight="700" fill="#E2E8F0" text-anchor="middle">NestJS / Node</text>
+
+    <!-- Pill 4: PostgreSQL & Redis -->
+    <rect x="344" y="0" width="134" height="26" rx="6" fill="#1E293B" stroke="#334155" stroke-width="1" />
+    <text x="411" y="17" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="10.5" font-weight="700" fill="#E2E8F0" text-anchor="middle">PostgreSQL · Redis</text>
+
+    <!-- Pill 5: AWS / DevOps -->
+    <rect x="486" y="0" width="128" height="26" rx="6" fill="#1E293B" stroke="#334155" stroke-width="1" />
+    <text x="550" y="17" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="10.5" font-weight="700" fill="#E2E8F0" text-anchor="middle">AWS · Docker · IaC</text>
+
+    <!-- Pill 6: BullMQ Queues -->
+    <rect x="622" y="0" width="110" height="26" rx="6" fill="#1E293B" stroke="#334155" stroke-width="1" />
+    <text x="677" y="17" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="10.5" font-weight="700" fill="#E2E8F0" text-anchor="middle">BullMQ Queues</text>
+
+    <!-- Pill 7: OWASP Security -->
+    <rect x="740" y="0" width="128" height="26" rx="6" fill="#1E293B" stroke="#334155" stroke-width="1" />
+    <text x="804" y="17" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="10.5" font-weight="700" fill="#34D399" text-anchor="middle">OWASP Hardened</text>
+  </g>
+</svg>
