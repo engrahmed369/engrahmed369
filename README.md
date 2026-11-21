@@ -26,11 +26,11 @@
 
 <br/>
 
-## 🏛️ Executive Summary
+## Executive Summary
 
 I am a **Senior Full-Stack & Cloud/DevOps Engineer** and the founder of **369 AI Ventures LLC** (Wyoming, USA). I architect, deploy, and maintain mission-critical distributed systems, high-concurrency headless commerce backends, and multi-tenant SaaS platforms for clients across the US, UK, and EU.
 
-My core specialty is **decoupling legacy monoliths into high-velocity headless architectures** (e.g., Shopify to Medusa.js v2), building **resilient event-driven background job pipelines** (BullMQ / Redis / Celery), and implementing **zero-trust cloud infrastructure** on AWS, DigitalOcean, and Cloudflare.
+My core specialty is **decoupling legacy monoliths into high-velocity headless architectures** (e.g., Shopify to Medusa.js v2), building **resilient event-driven background job pipelines** (BullMQ / Redis / AWS SQS), and implementing **zero-trust cloud infrastructure** on AWS, DigitalOcean, and Cloudflare.
 
 - **Entity & Legal:** Founder & Principal Engineer, **369 AI Ventures LLC** (Wyoming, US — EIN registered).
 - **Engagement Flexibility:** Direct B2B / C2C Contracting · Standard US MSAs & NDAs · Clean USD Invoicing.
@@ -39,15 +39,15 @@ My core specialty is **decoupling legacy monoliths into high-velocity headless a
 
 ---
 
-## 🚀 Verified Production Architectures
+## Verified Production Architectures
 
 ### 01. High-Scale US Headless Commerce Migrations · Shopify → Medusa.js v2
 *Delivered: July – November 2026 · Role: Lead Architect & 3-Developer Team Lead*
 
-Delivered **3 live, enterprise-grade Shopify to Medusa.js migrations** for high-volume US commercial brands with zero data loss and zero search engine authority drop:
-- **Flagship D2C Store:** Migrated **300,000+ historical orders and customer records**, preserving historical customer lookups via passwordless authentication.
-- **Multi-Brand Retail Storefront:** Deployed a **600-product** high-concurrency catalog with Redis-backed faceted search.
-- **High-SKU Wholesale Platform:** Migrated a **6,000-variant / 2,000-product** wholesale catalog with B2B tier pricing.
+Delivered enterprise-grade Shopify to Medusa.js migrations for high-volume US commercial brands with zero data loss and zero search engine authority drop:
+- **Flagship D2C Store:** Migrated **300,000+ historical orders and customer records**, preserving age-verification tags with record-count reconciliation and zero SEO drop.
+- **Multi-Brand Retail Storefront:** Deployed a **600-product** custom Medusa.js & Next.js storefront on self-hosted Docker/Coolify infrastructure.
+- **High-SKU Wholesale Platform:** Migrated a **6,000-variant / 2,000-product** wholesale catalog from Shopify to self-hosted Medusa.js.
 - **Zero-Downtime ETL & Verification:** Built streaming JSONL extract-transform-load (ETL) pipelines with automated two-gate count and financial reconciliation, achieving **100% data integrity** and **0% SEO URL loss** via verbatim handle preservation and automated 308 redirect mapping.
 - **Custom Medusa.js Modules:** Built proprietary Medusa admin extensions including a Bulk Product Editor, Blog Builder, Dynamic Page Builder, and Domain Routing Manager.
 - **Third-Party Enterprise Integrations:** Integrated AgeChecker.net identity gating, ShipStation fulfillment, Authorize.net tokenized PCI checkout, Avalara AvaTax, Klaviyo, Resend, Sentry, and Chatwoot.
@@ -72,7 +72,7 @@ Architected and deployed an end-to-end retail and wholesale commerce ecosystem u
 
 Engineered the core distributed messaging and customer relationship management engine connecting enterprise clients to the Meta Cloud API and Baileys protocol:
 - **Monorepo Architecture:** Built a high-velocity Node.js and TypeScript monorepo with MongoDB, Redis, and Express.
-- **7-Queue Concurrency Pipeline:** Designed **7 isolated BullMQ queues** handling message ingestion, webhook dispatch, template reconciliation, delivery receipts, rate-limit backoff, media transcoding, and CRM state persistence.
+- **Multi-Queue Concurrency Pipeline:** Designed a multi-queue BullMQ architecture handling message ingestion, webhook dispatch, template reconciliation, delivery receipts, rate-limit backoff, media transcoding, and CRM state persistence.
 - **Production Infrastructure:** Self-hosted on Ubuntu Linux, Nginx reverse proxy, PM2 process management, automated SSL termination, and Cloudflare edge firewall filtering.
 
 ---
@@ -116,7 +116,7 @@ Driving continuous R&D on fault-tolerant architecture accelerators and autonomou
 
 ---
 
-## 🛠️ Technical Core Competencies
+## Technical Core Competencies
 
 <table>
   <tr>
@@ -128,7 +128,7 @@ Driving continuous R&D on fault-tolerant architecture accelerators and autonomou
   <tr>
     <td width="20%" valign="top"><strong>Backend &amp; Distributed Systems</strong></td>
     <td width="80%">
-      <code>Node.js</code> &middot; <code>NestJS</code> &middot; <code>Express</code> &middot; <code>FastAPI (Python)</code> &middot; <code>PostgreSQL</code> &middot; <code>Prisma</code> &middot; <code>Drizzle ORM</code> &middot; <code>MongoDB</code> &middot; <code>Redis</code> &middot; <code>BullMQ (7-Queue Architectures)</code>
+      <code>Node.js</code> &middot; <code>NestJS</code> &middot; <code>Express</code> &middot; <code>FastAPI (Python)</code> &middot; <code>PostgreSQL</code> &middot; <code>Prisma</code> &middot; <code>Drizzle ORM</code> &middot; <code>MongoDB</code> &middot; <code>Redis</code> &middot; <code>BullMQ</code> &middot; <code>AWS SQS</code>
     </td>
   </tr>
   <tr>
@@ -153,7 +153,7 @@ Driving continuous R&D on fault-tolerant architecture accelerators and autonomou
 
 ---
 
-## 💼 Direct Contracting & Entity Details
+## Direct Contracting & Entity Details
 
 ```yaml
 Entity: 369 AI Ventures LLC
@@ -168,17 +168,17 @@ Primary Languages: English (Fluent Professional) · Urdu (Native)
 
 ---
 
-## 📬 Direct Contact & Verified Channels
+## Direct Contact & Verified Channels
 
 If you are an engineering executive, CTO, or founder looking to migrate off a proprietary SaaS monolith, build a high-performance headless commerce stack, or audit and scale your distributed cloud infrastructure:
 
 <div align="left">
 
-- **🌐 Live Production Portfolio:** [369aiventures.com](https://369aiventures.com)
-- **💼 LinkedIn:** [linkedin.com/in/engr-ahmed-216994391](https://linkedin.com/in/engr-ahmed-216994391)
-- **📹 Video Architecture Walkthrough:** [YouTube: System Architecture Overview](https://youtu.be/e9KqTkcbuVc)
-- **💬 WhatsApp Direct:** [+1 (315) 588-6495](https://wa.me/13155886495)
-- **📧 Email:** [imshahzadahmed3@gmail.com](mailto:imshahzadahmed3@gmail.com)
+- **Live Production Portfolio:** [369aiventures.com](https://369aiventures.com)
+- **LinkedIn:** [linkedin.com/in/engr-ahmed-216994391](https://linkedin.com/in/engr-ahmed-216994391)
+- **Video Architecture Walkthrough:** [YouTube: System Architecture Overview](https://youtu.be/e9KqTkcbuVc)
+- **WhatsApp Direct:** [+1 (315) 588-6495](https://wa.me/13155886495)
+- **Email:** [imshahzadahmed3@gmail.com](mailto:imshahzadahmed3@gmail.com)
 
 </div>
 

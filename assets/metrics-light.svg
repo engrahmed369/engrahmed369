@@ -19,18 +19,18 @@
   <g transform="translate(228, 0)">
     <rect width="214" height="110" rx="10" fill="url(#mCardBgL)" stroke="#CBD5E1" stroke-width="1.2" />
     <text x="16" y="26" font-family="ui-monospace, SFMono-Regular, monospace" font-size="9" font-weight="700" fill="#4F46E5" letter-spacing="1">SHOPIFY → MEDUSA.JS</text>
-    <text x="16" y="62" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="28" font-weight="800" fill="#4338CA" letter-spacing="-0.5">3 Delivered</text>
-    <text x="16" y="84" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="600" fill="#0F172A">Live Headless Platforms</text>
-    <text x="16" y="98" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="9.5" font-weight="500" fill="#64748B">6K variants · D2C &amp; Wholesale</text>
+    <text x="16" y="62" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="28" font-weight="800" fill="#4338CA" letter-spacing="-0.5">Zero-Drop</text>
+    <text x="16" y="84" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="600" fill="#0F172A">Headless Migrations</text>
+    <text x="16" y="98" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="9" font-weight="500" fill="#64748B">D2C &amp; Wholesale · Self-Hosted &amp; Cloud</text>
   </g>
 
   <!-- Card 3 -->
   <g transform="translate(456, 0)">
     <rect width="214" height="110" rx="10" fill="url(#mCardBgL)" stroke="#CBD5E1" stroke-width="1.2" />
-    <text x="16" y="26" font-family="ui-monospace, SFMono-Regular, monospace" font-size="9" font-weight="700" fill="#059669" letter-spacing="1">DISTRIBUTED QUEUES</text>
-    <text x="16" y="62" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="28" font-weight="800" fill="#047857" letter-spacing="-0.5">7 BullMQ</text>
-    <text x="16" y="84" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="600" fill="#0F172A">Event-Driven Workers</text>
-    <text x="16" y="98" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="9.5" font-weight="500" fill="#64748B">WhatsApp CRM &amp; Meta API SaaS</text>
+    <text x="16" y="26" font-family="ui-monospace, SFMono-Regular, monospace" font-size="9" font-weight="700" fill="#059669" letter-spacing="1">CLOUD &amp; DISTRIBUTED</text>
+    <text x="16" y="62" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="28" font-weight="800" fill="#047857" letter-spacing="-0.5">AWS &amp; GCP</text>
+    <text x="16" y="84" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="600" fill="#0F172A">Event-Driven Systems</text>
+    <text x="16" y="98" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="9" font-weight="500" fill="#64748B">Terraform · Docker · BullMQ · Redis</text>
   </g>
 
   <!-- Card 4 -->
