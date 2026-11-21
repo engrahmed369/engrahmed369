@@ -12,7 +12,7 @@
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Shahzad_Ahmed-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/engr-ahmed-216994391)
 [![Video Walkthrough](https://img.shields.io/badge/Architecture_Walkthrough-YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://youtu.be/e9KqTkcbuVc)
 [![WhatsApp](https://img.shields.io/badge/WhatsApp_Direct-%2B1_(315)_588--6495-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://wa.me/13155886495)
-[![Email](https://img.shields.io/badge/Direct_Email-imshahzadahmed3%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:imshahzadahmed3@gmail.com)
+[![Email](https://img.shields.io/badge/Direct_Email-engrahmed%40369aiventures.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:engrahmed@369aiventures.com)
 
 </div>
 
@@ -178,7 +178,7 @@ If you are an engineering executive, CTO, or founder looking to migrate off a pr
 - **LinkedIn:** [linkedin.com/in/engr-ahmed-216994391](https://linkedin.com/in/engr-ahmed-216994391)
 - **Video Architecture Walkthrough:** [YouTube: System Architecture Overview](https://youtu.be/e9KqTkcbuVc)
 - **WhatsApp Direct:** [+1 (315) 588-6495](https://wa.me/13155886495)
-- **Email:** [imshahzadahmed3@gmail.com](mailto:imshahzadahmed3@gmail.com)
+- **Email:** [engrahmed@369aiventures.com](mailto:engrahmed@369aiventures.com)
 
 </div>
 
